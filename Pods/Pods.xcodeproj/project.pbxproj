@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29AB59906B582FA7E9726A6F76635DFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5EAF32CD86DEA32D951BCD6AB6F5D6A1 /* Pods-Gigigo-YouTube-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C874A77A4F7C447FC6C0DC7A3A9C280 /* Pods-Gigigo-YouTube-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		639E46A63DB5C0877B5FA53E33D41F51 /* Pods-Gigigo-YouTubeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6E6ABEFD9C3C7C0DF8E3D54A2E54D1 /* Pods-Gigigo-YouTubeTests-dummy.m */; };
+		7A4EC53A9BFF39650DA32D7370E9D87A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A8FA0F145C6A29AA909ABC0A7F427770 /* Pods-Gigigo-YouTube-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCD498F48768FBD562D5BD8B70F8992 /* Pods-Gigigo-YouTube-dummy.m */; };
+		FAE0B562D21CEC93FF264C260E714767 /* Pods-Gigigo-YouTubeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 743DEF6D949B65CA6966ECCB7B47C28E /* Pods-Gigigo-YouTubeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		014734A69995DA6EDF0FA6C725ED74A4 /* Pods-Gigigo-YouTubeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gigigo-YouTubeTests.release.xcconfig"; sourceTree = "<group>"; };
+		14B5A7A45CB7E7DF16F72F328C53464A /* Pods_Gigigo_YouTubeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Gigigo_YouTubeTests.framework; path = "Pods-Gigigo-YouTubeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		197E631212AE5E0F2DE28D21619B0197 /* Pods-Gigigo-YouTube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gigigo-YouTube.debug.xcconfig"; sourceTree = "<group>"; };
+		1B20324E93F9CD443BA9BE70A009BB31 /* Pods-Gigigo-YouTube-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gigigo-YouTube-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C19559CE145C46044CB43C0F702A206 /* Pods-Gigigo-YouTubeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gigigo-YouTubeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C874A77A4F7C447FC6C0DC7A3A9C280 /* Pods-Gigigo-YouTube-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gigigo-YouTube-umbrella.h"; sourceTree = "<group>"; };
+		1E7C2DF4C1A53915A5081E41116C8661 /* Pods-Gigigo-YouTube-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Gigigo-YouTube-frameworks.sh"; sourceTree = "<group>"; };
+		24F0938395E37D976890A40DECD108F7 /* Pods-Gigigo-YouTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gigigo-YouTube.release.xcconfig"; sourceTree = "<group>"; };
+		2A09A58B498C5355EAD62FA228877527 /* Pods-Gigigo-YouTubeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Gigigo-YouTubeTests-resources.sh"; sourceTree = "<group>"; };
+		4D6E6ABEFD9C3C7C0DF8E3D54A2E54D1 /* Pods-Gigigo-YouTubeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gigigo-YouTubeTests-dummy.m"; sourceTree = "<group>"; };
+		63845A0B22144FC5329C1D517A3C07D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C46048FBBE4ACE7932F86DA0F49A4B1 /* Pods-Gigigo-YouTubeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Gigigo-YouTubeTests.modulemap"; sourceTree = "<group>"; };
+		6E9486B8D9BCA730FF2E48B444FBF2F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743DEF6D949B65CA6966ECCB7B47C28E /* Pods-Gigigo-YouTubeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gigigo-YouTubeTests-umbrella.h"; sourceTree = "<group>"; };
+		84C074B6F13AF120E4B2134B5716DB2D /* Pods-Gigigo-YouTube-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gigigo-YouTube-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3A729ACA2E75F7B8246C659647C4453 /* Pods_Gigigo_YouTube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Gigigo_YouTube.framework; path = "Pods-Gigigo-YouTube.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1CE42707047ABBE52639F80688B45B /* Pods-Gigigo-YouTube-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Gigigo-YouTube-resources.sh"; sourceTree = "<group>"; };
+		E2C9C07680EF20D7EC088FF98CDA9816 /* Pods-Gigigo-YouTube.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Gigigo-YouTube.modulemap"; sourceTree = "<group>"; };
+		E5285805EA505FFA4072A80A5A167148 /* Pods-Gigigo-YouTubeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Gigigo-YouTubeTests-frameworks.sh"; sourceTree = "<group>"; };
+		EBCD498F48768FBD562D5BD8B70F8992 /* Pods-Gigigo-YouTube-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gigigo-YouTube-dummy.m"; sourceTree = "<group>"; };
+		EF33D45169E5EDDFAE9DB39BE3A0A4FE /* Pods-Gigigo-YouTubeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gigigo-YouTubeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4E5577C055E5F8E8DDC6630AD82AA9A /* Pods-Gigigo-YouTubeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gigigo-YouTubeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A542A4D8B4C7900D81065AD2CD3E687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4EC53A9BFF39650DA32D7370E9D87A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B223D4ABC90E55336A3C31CC56D8163E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AB59906B582FA7E9726A6F76635DFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59E4F7B885E343326E36747E9EBE9316 /* Pods-Gigigo-YouTube */ = {
+			isa = PBXGroup;
+			children = (
+				63845A0B22144FC5329C1D517A3C07D8 /* Info.plist */,
+				E2C9C07680EF20D7EC088FF98CDA9816 /* Pods-Gigigo-YouTube.modulemap */,
+				1B20324E93F9CD443BA9BE70A009BB31 /* Pods-Gigigo-YouTube-acknowledgements.markdown */,
+				84C074B6F13AF120E4B2134B5716DB2D /* Pods-Gigigo-YouTube-acknowledgements.plist */,
+				EBCD498F48768FBD562D5BD8B70F8992 /* Pods-Gigigo-YouTube-dummy.m */,
+				1E7C2DF4C1A53915A5081E41116C8661 /* Pods-Gigigo-YouTube-frameworks.sh */,
+				BE1CE42707047ABBE52639F80688B45B /* Pods-Gigigo-YouTube-resources.sh */,
+				1C874A77A4F7C447FC6C0DC7A3A9C280 /* Pods-Gigigo-YouTube-umbrella.h */,
+				197E631212AE5E0F2DE28D21619B0197 /* Pods-Gigigo-YouTube.debug.xcconfig */,
+				24F0938395E37D976890A40DECD108F7 /* Pods-Gigigo-YouTube.release.xcconfig */,
+			);
+			name = "Pods-Gigigo-YouTube";
+			path = "Target Support Files/Pods-Gigigo-YouTube";
+			sourceTree = "<group>";
+		};
+		6E1738324D5526E39EC043E8EDF228E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59E4F7B885E343326E36747E9EBE9316 /* Pods-Gigigo-YouTube */,
+				B79D4D2CF3B8FA23406F3B4386F8B401 /* Pods-Gigigo-YouTubeTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B9D1B8F01BDA03EFF762FADFD12B2395 /* Products */,
+				6E1738324D5526E39EC043E8EDF228E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B79D4D2CF3B8FA23406F3B4386F8B401 /* Pods-Gigigo-YouTubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E9486B8D9BCA730FF2E48B444FBF2F8 /* Info.plist */,
+				6C46048FBBE4ACE7932F86DA0F49A4B1 /* Pods-Gigigo-YouTubeTests.modulemap */,
+				EF33D45169E5EDDFAE9DB39BE3A0A4FE /* Pods-Gigigo-YouTubeTests-acknowledgements.markdown */,
+				F4E5577C055E5F8E8DDC6630AD82AA9A /* Pods-Gigigo-YouTubeTests-acknowledgements.plist */,
+				4D6E6ABEFD9C3C7C0DF8E3D54A2E54D1 /* Pods-Gigigo-YouTubeTests-dummy.m */,
+				E5285805EA505FFA4072A80A5A167148 /* Pods-Gigigo-YouTubeTests-frameworks.sh */,
+				2A09A58B498C5355EAD62FA228877527 /* Pods-Gigigo-YouTubeTests-resources.sh */,
+				743DEF6D949B65CA6966ECCB7B47C28E /* Pods-Gigigo-YouTubeTests-umbrella.h */,
+				1C19559CE145C46044CB43C0F702A206 /* Pods-Gigigo-YouTubeTests.debug.xcconfig */,
+				014734A69995DA6EDF0FA6C725ED74A4 /* Pods-Gigigo-YouTubeTests.release.xcconfig */,
+			);
+			name = "Pods-Gigigo-YouTubeTests";
+			path = "Target Support Files/Pods-Gigigo-YouTubeTests";
+			sourceTree = "<group>";
+		};
+		B9D1B8F01BDA03EFF762FADFD12B2395 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3A729ACA2E75F7B8246C659647C4453 /* Pods_Gigigo_YouTube.framework */,
+				14B5A7A45CB7E7DF16F72F328C53464A /* Pods_Gigigo_YouTubeTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BB3BD160E2B54FCD87E81BBE06873A77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAF32CD86DEA32D951BCD6AB6F5D6A1 /* Pods-Gigigo-YouTube-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C20DA0FBEFC3A63DB275E8AB0503BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE0B562D21CEC93FF264C260E714767 /* Pods-Gigigo-YouTubeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B80A8804B92002343A81821348E2370E /* Pods-Gigigo-YouTube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F63EAE560D5317E3E4E26DC46453628 /* Build configuration list for PBXNativeTarget "Pods-Gigigo-YouTube" */;
+			buildPhases = (
+				F5C286EA12B277983EDDF17C02B7C3A7 /* Sources */,
+				5A542A4D8B4C7900D81065AD2CD3E687 /* Frameworks */,
+				BB3BD160E2B54FCD87E81BBE06873A77 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Gigigo-YouTube";
+			productName = "Pods-Gigigo-YouTube";
+			productReference = B3A729ACA2E75F7B8246C659647C4453 /* Pods_Gigigo_YouTube.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D56A12A900BA57932ECAD5EA16E66ABE /* Pods-Gigigo-YouTubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DD52AE9C2709491518570D60E0D569 /* Build configuration list for PBXNativeTarget "Pods-Gigigo-YouTubeTests" */;
+			buildPhases = (
+				1CDCF180068BCC822005827AA26DF643 /* Sources */,
+				B223D4ABC90E55336A3C31CC56D8163E /* Frameworks */,
+				D0C20DA0FBEFC3A63DB275E8AB0503BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Gigigo-YouTubeTests";
+			productName = "Pods-Gigigo-YouTubeTests";
+			productReference = 14B5A7A45CB7E7DF16F72F328C53464A /* Pods_Gigigo_YouTubeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B9D1B8F01BDA03EFF762FADFD12B2395 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B80A8804B92002343A81821348E2370E /* Pods-Gigigo-YouTube */,
+				D56A12A900BA57932ECAD5EA16E66ABE /* Pods-Gigigo-YouTubeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CDCF180068BCC822005827AA26DF643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639E46A63DB5C0877B5FA53E33D41F51 /* Pods-Gigigo-YouTubeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C286EA12B277983EDDF17C02B7C3A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8FA0F145C6A29AA909ABC0A7F427770 /* Pods-Gigigo-YouTube-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03084B0F048D5D960096C89B57E3670A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C19559CE145C46044CB43C0F702A206 /* Pods-Gigigo-YouTubeTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Gigigo-YouTubeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gigigo-YouTubeTests/Pods-Gigigo-YouTubeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Gigigo_YouTubeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		450AB59972B1307EC83FB4AA1341AA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 197E631212AE5E0F2DE28D21619B0197 /* Pods-Gigigo-YouTube.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Gigigo-YouTube/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gigigo-YouTube/Pods-Gigigo-YouTube.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Gigigo_YouTube;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F6FA9E4DE9518215C5E7BF1CC3D2345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 014734A69995DA6EDF0FA6C725ED74A4 /* Pods-Gigigo-YouTubeTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Gigigo-YouTubeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gigigo-YouTubeTests/Pods-Gigigo-YouTubeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Gigigo_YouTubeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD45A41A21EF074F7EF2C44420F09D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F0938395E37D976890A40DECD108F7 /* Pods-Gigigo-YouTube.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Gigigo-YouTube/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gigigo-YouTube/Pods-Gigigo-YouTube.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Gigigo_YouTube;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05DD52AE9C2709491518570D60E0D569 /* Build configuration list for PBXNativeTarget "Pods-Gigigo-YouTubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03084B0F048D5D960096C89B57E3670A /* Debug */,
+				4F6FA9E4DE9518215C5E7BF1CC3D2345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F63EAE560D5317E3E4E26DC46453628 /* Build configuration list for PBXNativeTarget "Pods-Gigigo-YouTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450AB59972B1307EC83FB4AA1341AA94 /* Debug */,
+				DD45A41A21EF074F7EF2C44420F09D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

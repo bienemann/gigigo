@@ -1,0 +1,6 @@
+framework module Pods_Gigigo_YouTubeTests {
+  umbrella header "Pods-Gigigo-YouTubeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

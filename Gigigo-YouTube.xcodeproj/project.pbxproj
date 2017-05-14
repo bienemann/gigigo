@@ -13,6 +13,8 @@
 		03B666B91EC8D17700082A36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B666B81EC8D17700082A36 /* Assets.xcassets */; };
 		03B666BC1EC8D17700082A36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B666BA1EC8D17700082A36 /* LaunchScreen.storyboard */; };
 		03B666C71EC8D17900082A36 /* Gigigo_YouTubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B666C61EC8D17900082A36 /* Gigigo_YouTubeTests.swift */; };
+		19C0E817ABC7C07B4FA17C85 /* Pods_Gigigo_YouTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644C00DA091D63FD976596C0 /* Pods_Gigigo_YouTube.framework */; };
+		E4A78E50D970C97CFF559FED /* Pods_Gigigo_YouTubeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7988DF6843E3C49D48D3B9 /* Pods_Gigigo_YouTubeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0080CD7F5CC95043BA85F1BA /* Pods-Gigigo-YouTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gigigo-YouTube.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gigigo-YouTube/Pods-Gigigo-YouTube.release.xcconfig"; sourceTree = "<group>"; };
 		03B666AE1EC8D17500082A36 /* Gigigo-YouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gigigo-YouTube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B666B11EC8D17600082A36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03B666B31EC8D17600082A36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +39,11 @@
 		03B666C21EC8D17900082A36 /* Gigigo-YouTubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gigigo-YouTubeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B666C61EC8D17900082A36 /* Gigigo_YouTubeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gigigo_YouTubeTests.swift; sourceTree = "<group>"; };
 		03B666C81EC8D17900082A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FB7623DE146093A77D9E52C /* Pods-Gigigo-YouTubeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gigigo-YouTubeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gigigo-YouTubeTests/Pods-Gigigo-YouTubeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		644C00DA091D63FD976596C0 /* Pods_Gigigo_YouTube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gigigo_YouTube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F7988DF6843E3C49D48D3B9 /* Pods_Gigigo_YouTubeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gigigo_YouTubeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8009F81A9D6774503F58ADD /* Pods-Gigigo-YouTube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gigigo-YouTube.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gigigo-YouTube/Pods-Gigigo-YouTube.debug.xcconfig"; sourceTree = "<group>"; };
+		E2058C304A209C7AFA9893DC /* Pods-Gigigo-YouTubeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gigigo-YouTubeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gigigo-YouTubeTests/Pods-Gigigo-YouTubeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19C0E817ABC7C07B4FA17C85 /* Pods_Gigigo_YouTube.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4A78E50D970C97CFF559FED /* Pods_Gigigo_YouTubeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				03B666B01EC8D17600082A36 /* Gigigo-YouTube */,
 				03B666C51EC8D17900082A36 /* Gigigo-YouTubeTests */,
 				03B666AF1EC8D17500082A36 /* Products */,
+				7B0BB24F183D409EDC279158 /* Pods */,
+				0527EBFDB892EDD7A6E42296 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = "Gigigo-YouTubeTests";
 			sourceTree = "<group>";
 		};
+		0527EBFDB892EDD7A6E42296 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				644C00DA091D63FD976596C0 /* Pods_Gigigo_YouTube.framework */,
+				6F7988DF6843E3C49D48D3B9 /* Pods_Gigigo_YouTubeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B0BB24F183D409EDC279158 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8009F81A9D6774503F58ADD /* Pods-Gigigo-YouTube.debug.xcconfig */,
+				0080CD7F5CC95043BA85F1BA /* Pods-Gigigo-YouTube.release.xcconfig */,
+				4FB7623DE146093A77D9E52C /* Pods-Gigigo-YouTubeTests.debug.xcconfig */,
+				E2058C304A209C7AFA9893DC /* Pods-Gigigo-YouTubeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03B666CB1EC8D17900082A36 /* Build configuration list for PBXNativeTarget "Gigigo-YouTube" */;
 			buildPhases = (
+				B327016CE6F14258E2523937 /* [CP] Check Pods Manifest.lock */,
 				03B666AA1EC8D17500082A36 /* Sources */,
 				03B666AB1EC8D17500082A36 /* Frameworks */,
 				03B666AC1EC8D17500082A36 /* Resources */,
+				EC66B6B9BFECBFF7DE6E5CAC /* [CP] Embed Pods Frameworks */,
+				EE516FAF314CDCF135826D87 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03B666CE1EC8D17900082A36 /* Build configuration list for PBXNativeTarget "Gigigo-YouTubeTests" */;
 			buildPhases = (
+				E45E0F98A075E7ED092F8812 /* [CP] Check Pods Manifest.lock */,
 				03B666BE1EC8D17900082A36 /* Sources */,
 				03B666BF1EC8D17900082A36 /* Frameworks */,
 				03B666C01EC8D17900082A36 /* Resources */,
+				A56C539836251FEE698D96DB /* [CP] Embed Pods Frameworks */,
+				196A053D8437B1023CACF737 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		196A053D8437B1023CACF737 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gigigo-YouTubeTests/Pods-Gigigo-YouTubeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A56C539836251FEE698D96DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gigigo-YouTubeTests/Pods-Gigigo-YouTubeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B327016CE6F14258E2523937 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E45E0F98A075E7ED092F8812 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC66B6B9BFECBFF7DE6E5CAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gigigo-YouTube/Pods-Gigigo-YouTube-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE516FAF314CDCF135826D87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gigigo-YouTube/Pods-Gigigo-YouTube-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		03B666AA1EC8D17500082A36 /* Sources */ = {
@@ -337,6 +468,7 @@
 		};
 		03B666CC1EC8D17900082A36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8009F81A9D6774503F58ADD /* Pods-Gigigo-YouTube.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Gigigo-YouTube/Info.plist";
@@ -349,6 +481,7 @@
 		};
 		03B666CD1EC8D17900082A36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0080CD7F5CC95043BA85F1BA /* Pods-Gigigo-YouTube.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Gigigo-YouTube/Info.plist";
@@ -361,6 +494,7 @@
 		};
 		03B666CF1EC8D17900082A36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB7623DE146093A77D9E52C /* Pods-Gigigo-YouTubeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -375,6 +509,7 @@
 		};
 		03B666D01EC8D17900082A36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2058C304A209C7AFA9893DC /* Pods-Gigigo-YouTubeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
