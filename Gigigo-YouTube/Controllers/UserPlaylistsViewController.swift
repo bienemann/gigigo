@@ -19,7 +19,7 @@ class UserPlaylistsViewController: UITableViewController {
 
         self.title = "Playlists de Apple"
         
-        let playlistURL = "\(BaseAPI.baseURL)playlists?part=snippet&\(BaseAPI.idUser)&\(BaseAPI.apiKey)"
+        let playlistURL = "\(BaseAPI.baseURL)&\(BaseAPI.idUser)&\(BaseAPI.apiKey)"
         Alamofire.request(playlistURL).responseObject { (response: DataResponse<PlaylistsList>) in
             print(response)
             guard let playlistData = response.result.value?.playlists else { return }

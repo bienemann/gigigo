@@ -17,6 +17,7 @@ class YoutubePlaylistItem: Mappable {
     var description: String?
     var thumbnails: [YoutubeThumbnail]?
     var playlistID: String?
+    var videoCount: Int?
 
     required init?(map: Map) {
 
@@ -29,5 +30,6 @@ class YoutubePlaylistItem: Mappable {
         description <- map["snippet.description"]
         thumbnails  <- map["snippet.thumbnails"]
         playlistID  <- map["id"]
+        videoCount  <- map["contentDetails.itemCount"]
     }
 }
