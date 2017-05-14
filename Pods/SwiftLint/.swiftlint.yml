@@ -1,0 +1,5 @@
+sabled_rules:
+  - trailing_whitespace
+excluded:
+  - ~/Desktop/Projects/Gigigo-YouTube/Gigigo-YouTubeTests
+  - ~/Desktop/Projects/Gigigo-YouTube/Pods

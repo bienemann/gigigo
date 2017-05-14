@@ -13,6 +13,13 @@
 		03B666B91EC8D17700082A36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B666B81EC8D17700082A36 /* Assets.xcassets */; };
 		03B666BC1EC8D17700082A36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B666BA1EC8D17700082A36 /* LaunchScreen.storyboard */; };
 		03B666C71EC8D17900082A36 /* Gigigo_YouTubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B666C61EC8D17900082A36 /* Gigigo_YouTubeTests.swift */; };
+		03EC06321EC8FA36001B0D7D /* PlaylistsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EC06311EC8FA36001B0D7D /* PlaylistsList.swift */; };
+		03EC06341EC8FA5D001B0D7D /* PlaylistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EC06331EC8FA5D001B0D7D /* PlaylistItem.swift */; };
+		03EC06361EC8FA6F001B0D7D /* PlayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EC06351EC8FA6F001B0D7D /* PlayList.swift */; };
+		03EC06381EC8FA82001B0D7D /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EC06371EC8FA82001B0D7D /* Video.swift */; };
+		03EC063A1EC8FA8B001B0D7D /* Thumbnails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EC06391EC8FA8B001B0D7D /* Thumbnails.swift */; };
+		03EC063E1EC8FB94001B0D7D /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EC063D1EC8FB94001B0D7D /* BaseAPI.swift */; };
+		03EC06411EC8FF4B001B0D7D /* UserPlaylistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EC06401EC8FF4B001B0D7D /* UserPlaylistsViewController.swift */; };
 		19C0E817ABC7C07B4FA17C85 /* Pods_Gigigo_YouTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644C00DA091D63FD976596C0 /* Pods_Gigigo_YouTube.framework */; };
 		E4A78E50D970C97CFF559FED /* Pods_Gigigo_YouTubeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7988DF6843E3C49D48D3B9 /* Pods_Gigigo_YouTubeTests.framework */; };
 /* End PBXBuildFile section */
@@ -39,6 +46,13 @@
 		03B666C21EC8D17900082A36 /* Gigigo-YouTubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gigigo-YouTubeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B666C61EC8D17900082A36 /* Gigigo_YouTubeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gigigo_YouTubeTests.swift; sourceTree = "<group>"; };
 		03B666C81EC8D17900082A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03EC06311EC8FA36001B0D7D /* PlaylistsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistsList.swift; sourceTree = "<group>"; };
+		03EC06331EC8FA5D001B0D7D /* PlaylistItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistItem.swift; sourceTree = "<group>"; };
+		03EC06351EC8FA6F001B0D7D /* PlayList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayList.swift; sourceTree = "<group>"; };
+		03EC06371EC8FA82001B0D7D /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		03EC06391EC8FA8B001B0D7D /* Thumbnails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thumbnails.swift; sourceTree = "<group>"; };
+		03EC063D1EC8FB94001B0D7D /* BaseAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
+		03EC06401EC8FF4B001B0D7D /* UserPlaylistsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPlaylistsViewController.swift; sourceTree = "<group>"; };
 		4FB7623DE146093A77D9E52C /* Pods-Gigigo-YouTubeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gigigo-YouTubeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gigigo-YouTubeTests/Pods-Gigigo-YouTubeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		644C00DA091D63FD976596C0 /* Pods_Gigigo_YouTube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gigigo_YouTube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F7988DF6843E3C49D48D3B9 /* Pods_Gigigo_YouTubeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gigigo_YouTubeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +103,9 @@
 		03B666B01EC8D17600082A36 /* Gigigo-YouTube */ = {
 			isa = PBXGroup;
 			children = (
+				03EC063F1EC8FF18001B0D7D /* Controllers */,
+				03EC063C1EC8FB6E001B0D7D /* API */,
+				03EC062D1EC8D7F7001B0D7D /* Models */,
 				03B666B11EC8D17600082A36 /* AppDelegate.swift */,
 				03B666B31EC8D17600082A36 /* ViewController.swift */,
 				03B666B51EC8D17700082A36 /* Main.storyboard */,
@@ -106,6 +123,34 @@
 				03B666C81EC8D17900082A36 /* Info.plist */,
 			);
 			path = "Gigigo-YouTubeTests";
+			sourceTree = "<group>";
+		};
+		03EC062D1EC8D7F7001B0D7D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				03EC06311EC8FA36001B0D7D /* PlaylistsList.swift */,
+				03EC06331EC8FA5D001B0D7D /* PlaylistItem.swift */,
+				03EC06351EC8FA6F001B0D7D /* PlayList.swift */,
+				03EC06371EC8FA82001B0D7D /* Video.swift */,
+				03EC06391EC8FA8B001B0D7D /* Thumbnails.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		03EC063C1EC8FB6E001B0D7D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				03EC063D1EC8FB94001B0D7D /* BaseAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		03EC063F1EC8FF18001B0D7D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				03EC06401EC8FF4B001B0D7D /* UserPlaylistsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		0527EBFDB892EDD7A6E42296 /* Frameworks */ = {
@@ -141,6 +186,7 @@
 				03B666AC1EC8D17500082A36 /* Resources */,
 				EC66B6B9BFECBFF7DE6E5CAC /* [CP] Embed Pods Frameworks */,
 				EE516FAF314CDCF135826D87 /* [CP] Copy Pods Resources */,
+				03EC06301EC8DB28001B0D7D /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -233,6 +279,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		03EC06301EC8DB28001B0D7D /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
+		};
 		196A053D8437B1023CACF737 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,7 +391,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				03B666B41EC8D17600082A36 /* ViewController.swift in Sources */,
+				03EC063A1EC8FA8B001B0D7D /* Thumbnails.swift in Sources */,
+				03EC06411EC8FF4B001B0D7D /* UserPlaylistsViewController.swift in Sources */,
+				03EC06341EC8FA5D001B0D7D /* PlaylistItem.swift in Sources */,
+				03EC06361EC8FA6F001B0D7D /* PlayList.swift in Sources */,
 				03B666B21EC8D17600082A36 /* AppDelegate.swift in Sources */,
+				03EC063E1EC8FB94001B0D7D /* BaseAPI.swift in Sources */,
+				03EC06381EC8FA82001B0D7D /* Video.swift in Sources */,
+				03EC06321EC8FA36001B0D7D /* PlaylistsList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +608,7 @@
 				03B666CD1EC8D17900082A36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03B666CE1EC8D17900082A36 /* Build configuration list for PBXNativeTarget "Gigigo-YouTubeTests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +617,7 @@
 				03B666D01EC8D17900082A36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
