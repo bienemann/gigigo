@@ -9,6 +9,7 @@ target 'Gigigo-YouTube' do
   pod 'Alamofire', '~> 4.4'
   pod 'AlamofireObjectMapper', '~> 4.0'
   pod 'SwiftLint'
+  pod 'DateToolsSwift'
 
   target 'Gigigo-YouTubeTests' do
     inherit! :search_paths
