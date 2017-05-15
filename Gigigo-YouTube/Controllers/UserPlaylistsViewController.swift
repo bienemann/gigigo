@@ -13,12 +13,15 @@ import Alamofire
 class UserPlaylistsViewController: UITableViewController {
 
     var playlists: [YoutubePlaylistItem?] = []
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.title = "Playlists de Apple"
-        
+
+        let nib = UINib(nibName: "PlaylistItemCell", bundle: nil)
+        self.tableView.register(nib, forCellReuseIdentifier: "PlaylistItemCell")
+
         let playlistURL = "\(BaseAPI.baseURL)&\(BaseAPI.idUser)&\(BaseAPI.apiKey)"
         Alamofire.request(playlistURL).responseObject { (response: DataResponse<PlaylistsList>) in
             print(response)
@@ -33,10 +36,22 @@ class UserPlaylistsViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cellIdentifier", for: indexPath)
-        cell.textLabel?.text = playlists[indexPath.row]?.title
+
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "PlaylistItemCell",
+                                                       for: indexPath) as? PlaylistItemCell
+            else {
+                let cell = tableView.dequeueReusableCell(withIdentifier: "cellIdentifier", for: indexPath)
+                cell.textLabel?.text = playlists[indexPath.row]?.title
+                return cell
+        }
+
+        cell.item = playlists[indexPath.row]
+        cell.setup()
         return cell
+    }
+
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 240.0
     }
 
 }

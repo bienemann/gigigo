@@ -15,7 +15,7 @@ class YoutubePlaylistItem: Mappable {
     var publishedAt: Date?
     var title: String?
     var description: String?
-    var thumbnails: [YoutubeThumbnail]?
+    var thumbnails: YoutubeThumbnail?
     var playlistID: String?
     var videoCount: Int?
 
