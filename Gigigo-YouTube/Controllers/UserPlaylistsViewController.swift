@@ -19,13 +19,29 @@ class UserPlaylistsViewController: UITableViewController {
 
         self.title = "Playlists de Apple"
 
-        let playlistURL = "\(BaseAPI.baseURL)&\(BaseAPI.idUser)&\(BaseAPI.apiKey)"
+        let playlistURL = "\(BaseAPI.playlistsURL)&\(BaseAPI.idUser)&\(BaseAPI.apiKey)"
         Alamofire.request(playlistURL).responseObject { (response: DataResponse<PlaylistsList>) in
             print(response)
             guard let playlistData = response.result.value?.playlists else { return }
             self.playlists = playlistData
             self.tableView.reloadData()
         }
+    }
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+
+        if  segue.identifier == "playlistDetails" &&
+        segue.destination is PlaylistDetailsViewController {
+
+            guard let cell = sender as? PlaylistItemCell else { return }
+            guard let destination = segue.destination as? PlaylistDetailsViewController else { return }
+            let row = self.tableView.indexPath(for: cell)!.row
+            let item = self.playlists[row]
+            destination.title = item?.title
+            destination.playlistID = (item?.playlistID)!
+
+        }
+
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

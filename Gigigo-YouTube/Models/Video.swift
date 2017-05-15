@@ -16,7 +16,8 @@ class YoutubeVideo: Mappable {
     var publishedAt: Date?
     var title: String?
     var description: String?
-    var thumbnails: [YoutubeThumbnail]?
+    var thumbnails: YoutubeThumbnail?
+    var channelTitle: String?
 
     static let dateFormatter: DateFormatter = {
         let dateFormatter = DateFormatter()
@@ -29,12 +30,13 @@ class YoutubeVideo: Mappable {
     }
 
     func mapping(map: Map) {
-        videoID     <- map["items.id"]
-        publishedAt <- (map["items.publishedAt"],
+        videoID         <- map["id"]
+        publishedAt     <- (map["snippet.publishedAt"],
                         DateFormatterTransform(dateFormatter: YoutubeVideo.dateFormatter))
-        title       <- map["items.title"]
-        description <- map["items.description"]
-        thumbnails  <- map["items.thumbnails"]
+        title           <- map["snippet.title"]
+        description     <- map["snippet.description"]
+        thumbnails      <- map["snippet.thumbnails"]
+        channelTitle    <- map["snippet.channelTitle"]
     }
 
 }

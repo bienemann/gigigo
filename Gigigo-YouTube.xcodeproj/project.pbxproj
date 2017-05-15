@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		034F90171EC93C7C00535921 /* PlaylistItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F90161EC93C7C00535921 /* PlaylistItemCell.swift */; };
 		034F90191EC9420700535921 /* PlaylistDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F90181EC9420700535921 /* PlaylistDetailsViewController.swift */; };
+		034F901B1EC94C3F00535921 /* PlaylistItemDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F901A1EC94C3F00535921 /* PlaylistItemDetailsCell.swift */; };
 		03B666B21EC8D17600082A36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B666B11EC8D17600082A36 /* AppDelegate.swift */; };
 		03B666B41EC8D17600082A36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B666B31EC8D17600082A36 /* ViewController.swift */; };
 		03B666B71EC8D17700082A36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B666B51EC8D17700082A36 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		0080CD7F5CC95043BA85F1BA /* Pods-Gigigo-YouTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gigigo-YouTube.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gigigo-YouTube/Pods-Gigigo-YouTube.release.xcconfig"; sourceTree = "<group>"; };
 		034F90161EC93C7C00535921 /* PlaylistItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistItemCell.swift; sourceTree = "<group>"; };
 		034F90181EC9420700535921 /* PlaylistDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDetailsViewController.swift; sourceTree = "<group>"; };
+		034F901A1EC94C3F00535921 /* PlaylistItemDetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistItemDetailsCell.swift; sourceTree = "<group>"; };
 		03B666AE1EC8D17500082A36 /* Gigigo-YouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gigigo-YouTube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B666B11EC8D17600082A36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03B666B31EC8D17600082A36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				034F90161EC93C7C00535921 /* PlaylistItemCell.swift */,
+				034F901A1EC94C3F00535921 /* PlaylistItemDetailsCell.swift */,
 				03EC06401EC8FF4B001B0D7D /* UserPlaylistsViewController.swift */,
 				034F90181EC9420700535921 /* PlaylistDetailsViewController.swift */,
 			);
@@ -236,6 +239,7 @@
 				TargetAttributes = {
 					03B666AD1EC8D17500082A36 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = V477Q9C9J7;
 						ProvisioningStyle = Automatic;
 					};
 					03B666C11EC8D17900082A36 = {
@@ -407,6 +411,7 @@
 				03EC063E1EC8FB94001B0D7D /* BaseAPI.swift in Sources */,
 				03EC06381EC8FA82001B0D7D /* Video.swift in Sources */,
 				03EC06321EC8FA36001B0D7D /* PlaylistsList.swift in Sources */,
+				034F901B1EC94C3F00535921 /* PlaylistItemDetailsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,7 +494,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -533,7 +538,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -546,6 +551,7 @@
 			baseConfigurationReference = D8009F81A9D6774503F58ADD /* Pods-Gigigo-YouTube.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V477Q9C9J7;
 				INFOPLIST_FILE = "Gigigo-YouTube/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bienemann.me.Gigigo-YouTube";
@@ -559,6 +565,7 @@
 			baseConfigurationReference = 0080CD7F5CC95043BA85F1BA /* Pods-Gigigo-YouTube.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V477Q9C9J7;
 				INFOPLIST_FILE = "Gigigo-YouTube/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bienemann.me.Gigigo-YouTube";

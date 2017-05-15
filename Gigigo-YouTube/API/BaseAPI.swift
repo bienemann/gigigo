@@ -13,6 +13,7 @@ class BaseAPI: NSObject {
 
     static let idUser = "channelId=UCE_M8A5yxnLfW0KghEeajjw"
     static let apiKey = "key=AIzaSyBPlVYsLeKqj9u7wjIQFzamljTaFKPVFSE"
-    static let baseURL = "https://www.googleapis.com/youtube/v3/playlists?part=snippet,contentDetails&maxResults=50"
-
+    static let playlistsURL =
+    "https://www.googleapis.com/youtube/v3/playlists?part=snippet,contentDetails&maxResults=50"
+    static let itemURL = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50"
 }
