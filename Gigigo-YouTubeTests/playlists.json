@@ -1,0 +1,470 @@
+{
+ "kind": "youtube#playlistListResponse",
+ "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/MGT8ja5XNJYiwfrUZEY8L_4MGtw\"",
+ "pageInfo": {
+  "totalResults": 10,
+  "resultsPerPage": 50
+ },
+ "items": [
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/xgfVBh3fECNcFofjk5gx95WHB8Y\"",
+   "id": "PLHFlHpPjgk72JW5vfYlzycSgG_Z6EV4hK",
+   "snippet": {
+    "publishedAt": "2017-05-11T21:17:57.000Z",
+    "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+    "title": "How to Shoot on iPhone 7",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Ryi0mt_yr3k/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Ryi0mt_yr3k/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Ryi0mt_yr3k/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/Ryi0mt_yr3k/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/Ryi0mt_yr3k/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Apple",
+    "localized": {
+     "title": "How to Shoot on iPhone 7",
+     "description": ""
+    }
+   },
+   "contentDetails": {
+    "itemCount": 9
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/rrSqQA6h1Gg-lDiNcTTmRkYcjqs\"",
+   "id": "PLHFlHpPjgk73pyiy3EL9cGTO8wnJN7h2F",
+   "snippet": {
+    "publishedAt": "2017-04-13T19:11:27.000Z",
+    "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+    "title": "Earth Day 2017",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/eH6hf6M_7a8/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/eH6hf6M_7a8/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/eH6hf6M_7a8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/eH6hf6M_7a8/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/eH6hf6M_7a8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Apple",
+    "localized": {
+     "title": "Earth Day 2017",
+     "description": ""
+    }
+   },
+   "contentDetails": {
+    "itemCount": 4
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/hsTSqww7rPmMl8QcGduo4PuPfO4\"",
+   "id": "PLHFlHpPjgk72N_yWeNI_HEwFi-LdOk61h",
+   "snippet": {
+    "publishedAt": "2017-03-07T23:01:59.000Z",
+    "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+    "title": "Discover More",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/4nbhfrQfRRE/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/4nbhfrQfRRE/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/4nbhfrQfRRE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/4nbhfrQfRRE/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/4nbhfrQfRRE/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Apple",
+    "localized": {
+     "title": "Discover More",
+     "description": ""
+    }
+   },
+   "contentDetails": {
+    "itemCount": 18
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/3vIXBclmnKIrUAy-hMhtSg9gM0w\"",
+   "id": "PLHFlHpPjgk72fOylAAJRhV0jBrHwK0nn3",
+   "snippet": {
+    "publishedAt": "2017-02-17T16:47:21.000Z",
+    "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+    "title": "iPad Pro — We Hear You",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/ued_jtknvws/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/ued_jtknvws/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/ued_jtknvws/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/ued_jtknvws/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/ued_jtknvws/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Apple",
+    "localized": {
+     "title": "iPad Pro — We Hear You",
+     "description": ""
+    }
+   },
+   "contentDetails": {
+    "itemCount": 10
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/3CBsxK_JLkWxkB7_lhKiqrAw_ak\"",
+   "id": "PLHFlHpPjgk70oyFU2DHn0mqXZxqUxySsb",
+   "snippet": {
+    "publishedAt": "2015-06-08T23:08:38.000Z",
+    "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+    "title": "Apple Music",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/3QRpkYlk-SM/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/3QRpkYlk-SM/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/3QRpkYlk-SM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/3QRpkYlk-SM/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/3QRpkYlk-SM/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Apple",
+    "localized": {
+     "title": "Apple Music",
+     "description": ""
+    }
+   },
+   "contentDetails": {
+    "itemCount": 9
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/Jw1e2_teL8v4qp4BoiGenM21Yxs\"",
+   "id": "PLHFlHpPjgk72-DBBxHI1H2ZR2X4y0-bQc",
+   "snippet": {
+    "publishedAt": "2015-03-09T17:00:51.000Z",
+    "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+    "title": "Mac",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/ROEIKn8OsGU/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/ROEIKn8OsGU/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/ROEIKn8OsGU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/ROEIKn8OsGU/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/ROEIKn8OsGU/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Apple",
+    "localized": {
+     "title": "Mac",
+     "description": ""
+    }
+   },
+   "contentDetails": {
+    "itemCount": 7
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/FwledP5_Xw494uQlDRugiUgY8kk\"",
+   "id": "PLHFlHpPjgk73J6C3PHUrDntzy6TQxBh44",
+   "snippet": {
+    "publishedAt": "2014-09-09T17:20:19.000Z",
+    "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+    "title": "Apple Watch",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/BNpiwOkKIJ8/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/BNpiwOkKIJ8/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/BNpiwOkKIJ8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/BNpiwOkKIJ8/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/BNpiwOkKIJ8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Apple",
+    "localized": {
+     "title": "Apple Watch",
+     "description": ""
+    }
+   },
+   "contentDetails": {
+    "itemCount": 5
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/hj-KIIOahctBEBEFyLZ7-1VI4Wc\"",
+   "id": "PLHFlHpPjgk71-8cHGcN7GpjIimFcVIC4X",
+   "snippet": {
+    "publishedAt": "2013-06-25T18:46:12.000Z",
+    "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+    "title": "iPhone",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Ryi0mt_yr3k/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Ryi0mt_yr3k/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Ryi0mt_yr3k/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/Ryi0mt_yr3k/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/Ryi0mt_yr3k/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Apple",
+    "localized": {
+     "title": "iPhone",
+     "description": ""
+    }
+   },
+   "contentDetails": {
+    "itemCount": 64
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/rC-3w4LVBYrkG2ohjlWVF74Gq30\"",
+   "id": "PLHFlHpPjgk713fMv5O4s4Fv7k6yTkXwkV",
+   "snippet": {
+    "publishedAt": "2013-01-04T23:40:47.000Z",
+    "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+    "title": "Featured Playlist",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/waTteMeg4Ag/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/waTteMeg4Ag/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/waTteMeg4Ag/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/waTteMeg4Ag/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/waTteMeg4Ag/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Apple",
+    "localized": {
+     "title": "Featured Playlist",
+     "description": ""
+    }
+   },
+   "contentDetails": {
+    "itemCount": 103
+   }
+  },
+  {
+   "kind": "youtube#playlist",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/7rYZE6b-2Fl9o1JFS1jnbGivXLo\"",
+   "id": "PLHFlHpPjgk71oZFqrr4VWF33NrZaky9Ff",
+   "snippet": {
+    "publishedAt": "2012-10-24T00:58:56.000Z",
+    "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+    "title": "iPad",
+    "description": "",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/ued_jtknvws/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/ued_jtknvws/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/ued_jtknvws/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/ued_jtknvws/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/ued_jtknvws/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Apple",
+    "localized": {
+     "title": "iPad",
+     "description": ""
+    }
+   },
+   "contentDetails": {
+    "itemCount": 15
+   }
+  }
+ ]
+}

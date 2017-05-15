@@ -11,7 +11,6 @@
 		034F90191EC9420700535921 /* PlaylistDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F90181EC9420700535921 /* PlaylistDetailsViewController.swift */; };
 		034F901B1EC94C3F00535921 /* PlaylistItemDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F901A1EC94C3F00535921 /* PlaylistItemDetailsCell.swift */; };
 		03B666B21EC8D17600082A36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B666B11EC8D17600082A36 /* AppDelegate.swift */; };
-		03B666B41EC8D17600082A36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B666B31EC8D17600082A36 /* ViewController.swift */; };
 		03B666B71EC8D17700082A36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B666B51EC8D17700082A36 /* Main.storyboard */; };
 		03B666B91EC8D17700082A36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B666B81EC8D17700082A36 /* Assets.xcassets */; };
 		03B666BC1EC8D17700082A36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B666BA1EC8D17700082A36 /* LaunchScreen.storyboard */; };
@@ -24,6 +23,8 @@
 		03EC063E1EC8FB94001B0D7D /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EC063D1EC8FB94001B0D7D /* BaseAPI.swift */; };
 		03EC06411EC8FF4B001B0D7D /* UserPlaylistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EC06401EC8FF4B001B0D7D /* UserPlaylistsViewController.swift */; };
 		19C0E817ABC7C07B4FA17C85 /* Pods_Gigigo_YouTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644C00DA091D63FD976596C0 /* Pods_Gigigo_YouTube.framework */; };
+		1DD1D8A61EC9E5500093934A /* playlists.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DD1D8A51EC9E5500093934A /* playlists.json */; };
+		1DD1D8A81EC9FC1F0093934A /* playlist.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DD1D8A71EC9FC1F0093934A /* playlist.json */; };
 		E4A78E50D970C97CFF559FED /* Pods_Gigigo_YouTubeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7988DF6843E3C49D48D3B9 /* Pods_Gigigo_YouTubeTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +45,6 @@
 		034F901A1EC94C3F00535921 /* PlaylistItemDetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistItemDetailsCell.swift; sourceTree = "<group>"; };
 		03B666AE1EC8D17500082A36 /* Gigigo-YouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gigigo-YouTube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B666B11EC8D17600082A36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03B666B31EC8D17600082A36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		03B666B61EC8D17700082A36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03B666B81EC8D17700082A36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03B666BB1EC8D17700082A36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +59,8 @@
 		03EC06391EC8FA8B001B0D7D /* Thumbnails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thumbnails.swift; sourceTree = "<group>"; };
 		03EC063D1EC8FB94001B0D7D /* BaseAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
 		03EC06401EC8FF4B001B0D7D /* UserPlaylistsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPlaylistsViewController.swift; sourceTree = "<group>"; };
+		1DD1D8A51EC9E5500093934A /* playlists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = playlists.json; sourceTree = "<group>"; };
+		1DD1D8A71EC9FC1F0093934A /* playlist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = playlist.json; sourceTree = "<group>"; };
 		4FB7623DE146093A77D9E52C /* Pods-Gigigo-YouTubeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gigigo-YouTubeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gigigo-YouTubeTests/Pods-Gigigo-YouTubeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		644C00DA091D63FD976596C0 /* Pods_Gigigo_YouTube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gigigo_YouTube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F7988DF6843E3C49D48D3B9 /* Pods_Gigigo_YouTubeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gigigo_YouTubeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,7 +115,6 @@
 				03EC063C1EC8FB6E001B0D7D /* API */,
 				03EC062D1EC8D7F7001B0D7D /* Models */,
 				03B666B11EC8D17600082A36 /* AppDelegate.swift */,
-				03B666B31EC8D17600082A36 /* ViewController.swift */,
 				03B666B51EC8D17700082A36 /* Main.storyboard */,
 				03B666B81EC8D17700082A36 /* Assets.xcassets */,
 				03B666BA1EC8D17700082A36 /* LaunchScreen.storyboard */,
@@ -127,6 +128,8 @@
 			children = (
 				03B666C61EC8D17900082A36 /* Gigigo_YouTubeTests.swift */,
 				03B666C81EC8D17900082A36 /* Info.plist */,
+				1DD1D8A51EC9E5500093934A /* playlists.json */,
+				1DD1D8A71EC9FC1F0093934A /* playlist.json */,
 			);
 			path = "Gigigo-YouTubeTests";
 			sourceTree = "<group>";
@@ -283,6 +286,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD1D8A81EC9FC1F0093934A /* playlist.json in Resources */,
+				1DD1D8A61EC9E5500093934A /* playlists.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,7 +405,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03B666B41EC8D17600082A36 /* ViewController.swift in Sources */,
 				034F90191EC9420700535921 /* PlaylistDetailsViewController.swift in Sources */,
 				03EC063A1EC8FA8B001B0D7D /* Thumbnails.swift in Sources */,
 				034F90171EC93C7C00535921 /* PlaylistItemCell.swift in Sources */,

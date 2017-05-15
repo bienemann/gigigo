@@ -1,0 +1,415 @@
+{
+ "kind": "youtube#playlistItemListResponse",
+ "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/rLx_-Im1zDmWuHJbc8_1exQ8E7Y\"",
+ "pageInfo": {
+  "totalResults": 9,
+  "resultsPerPage": 50
+ },
+ "items": [
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/1crT0BeR2P-mRfiSu8Rlqq_SP6A\"",
+   "id": "UExIRmxIcFBqZ2s3MkpXNXZmWWx6eWNTZ0dfWjZFVjRoSy45NDk1REZENzhEMzU5MDQz",
+   "snippet": {
+    "publishedAt": "2017-05-12T19:05:41.000Z",
+    "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+    "title": "How to shoot stills while filming on iPhone 7 — Apple",
+    "description": "Don’t miss a great still — even when you're capturing video. \nExplore other photography tips and techniques at http://apple.co/2pUoX5d",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/Ryi0mt_yr3k/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/Ryi0mt_yr3k/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/Ryi0mt_yr3k/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/Ryi0mt_yr3k/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/Ryi0mt_yr3k/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Apple",
+    "playlistId": "PLHFlHpPjgk72JW5vfYlzycSgG_Z6EV4hK",
+    "position": 0,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "Ryi0mt_yr3k"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/ySeSN9N7wUecW52yIbAE68byy0c\"",
+   "id": "UExIRmxIcFBqZ2s3MkpXNXZmWWx6eWNTZ0dfWjZFVjRoSy5DQUNERDQ2NkIzRUQxNTY1",
+   "snippet": {
+    "publishedAt": "2017-05-12T19:05:06.000Z",
+    "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+    "title": "How to shoot a selfie with the timer on iPhone 7 — Apple",
+    "description": "Use the timer to take incredible hands-free selfies. \nExplore other photography tips and techniques at http://apple.co/2pF1S5W",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/GgEUAWsiuAE/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/GgEUAWsiuAE/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/GgEUAWsiuAE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/GgEUAWsiuAE/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/GgEUAWsiuAE/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Apple",
+    "playlistId": "PLHFlHpPjgk72JW5vfYlzycSgG_Z6EV4hK",
+    "position": 1,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "GgEUAWsiuAE"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/TuxNWDIqq55qwD4J1ec_SAEDmlk\"",
+   "id": "UExIRmxIcFBqZ2s3MkpXNXZmWWx6eWNTZ0dfWjZFVjRoSy41MzJCQjBCNDIyRkJDN0VD",
+   "snippet": {
+    "publishedAt": "2017-05-12T19:04:33.000Z",
+    "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+    "title": "How to capture a unique angle on iPhone 7 — Apple",
+    "description": "A little experimentation is the key to those one-of-a-kind shots.\nExplore other photography tips and techniques at http://apple.co/2pEV08A",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/bZ3xFt-nuFs/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/bZ3xFt-nuFs/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/bZ3xFt-nuFs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/bZ3xFt-nuFs/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/bZ3xFt-nuFs/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Apple",
+    "playlistId": "PLHFlHpPjgk72JW5vfYlzycSgG_Z6EV4hK",
+    "position": 2,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "bZ3xFt-nuFs"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/mC7fFf2yHTaZcBksDx27gP_mGEs\"",
+   "id": "UExIRmxIcFBqZ2s3MkpXNXZmWWx6eWNTZ0dfWjZFVjRoSy4xMkVGQjNCMUM1N0RFNEUx",
+   "snippet": {
+    "publishedAt": "2017-05-12T19:04:07.000Z",
+    "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+    "title": "How to shoot during golden hour on iPhone 7 — Apple",
+    "description": "Give your subject that distinctive glow by using the light of the setting sun.\nExplore other photography tips and techniques at http://apple.co/2pEXTWX",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/oAZdBQ1yza4/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/oAZdBQ1yza4/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/oAZdBQ1yza4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/oAZdBQ1yza4/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/oAZdBQ1yza4/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Apple",
+    "playlistId": "PLHFlHpPjgk72JW5vfYlzycSgG_Z6EV4hK",
+    "position": 3,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "oAZdBQ1yza4"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/pYIHlan6SdogHuZ-E2YT-raWOYo\"",
+   "id": "UExIRmxIcFBqZ2s3MkpXNXZmWWx6eWNTZ0dfWjZFVjRoSy4wOTA3OTZBNzVEMTUzOTMy",
+   "snippet": {
+    "publishedAt": "2017-05-11T22:57:16.000Z",
+    "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+    "title": "How to shoot a great portrait on iPhone 7 Plus – Apple",
+    "description": "Use Portrait mode to take an amazing photo of a friend. \nExplore other photography tips and techniques at http://apple.co/2lNlZJW",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/xvvXIt7XwXE/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/xvvXIt7XwXE/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/xvvXIt7XwXE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/xvvXIt7XwXE/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/xvvXIt7XwXE/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Apple",
+    "playlistId": "PLHFlHpPjgk72JW5vfYlzycSgG_Z6EV4hK",
+    "position": 4,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "xvvXIt7XwXE"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/_Muk5f06-R6LzwO6XO7M3J-oavM\"",
+   "id": "UExIRmxIcFBqZ2s3MkpXNXZmWWx6eWNTZ0dfWjZFVjRoSy41MjE1MkI0OTQ2QzJGNzNG",
+   "snippet": {
+    "publishedAt": "2017-05-11T22:56:47.000Z",
+    "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+    "title": "How to shoot a close-up on iPhone 7 – Apple",
+    "description": "Life looks different from 10 cm away. See how to capture it beautifully every time.\nExplore other photography tips and techniques at http://apple.co/2qp7pOt",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/ElHnXjbGAm4/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/ElHnXjbGAm4/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/ElHnXjbGAm4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/ElHnXjbGAm4/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/ElHnXjbGAm4/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Apple",
+    "playlistId": "PLHFlHpPjgk72JW5vfYlzycSgG_Z6EV4hK",
+    "position": 5,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "ElHnXjbGAm4"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/80C6SIzHXkJslUdfTv-ro6BGCNA\"",
+   "id": "UExIRmxIcFBqZ2s3MkpXNXZmWWx6eWNTZ0dfWjZFVjRoSy4wMTcyMDhGQUE4NTIzM0Y5",
+   "snippet": {
+    "publishedAt": "2017-05-11T22:56:14.000Z",
+    "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+    "title": "How to shoot a vertical Pano on iPhone 7 — Apple",
+    "description": "Boldly go from base to summit with a vertical Pano. \nExplore other photography tips and techniques at http://apple.co/2pF230L",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/VY2FqNAk0mM/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/VY2FqNAk0mM/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/VY2FqNAk0mM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/VY2FqNAk0mM/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/VY2FqNAk0mM/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Apple",
+    "playlistId": "PLHFlHpPjgk72JW5vfYlzycSgG_Z6EV4hK",
+    "position": 6,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "VY2FqNAk0mM"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/gKVdvRMLnZ_yuQTiv0qtOuFadvw\"",
+   "id": "UExIRmxIcFBqZ2s3MkpXNXZmWWx6eWNTZ0dfWjZFVjRoSy4yODlGNEE0NkRGMEEzMEQy",
+   "snippet": {
+    "publishedAt": "2017-05-11T22:55:59.000Z",
+    "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+    "title": "How to shoot without a flash on iPhone 7 — Apple",
+    "description": "Make the most of light sources around you to brighten up your photo. \nExplore other photography tips and techniques at http://apple.co/2kHuI09",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/uwMJv0_wa-M/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/uwMJv0_wa-M/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/uwMJv0_wa-M/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/uwMJv0_wa-M/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/uwMJv0_wa-M/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Apple",
+    "playlistId": "PLHFlHpPjgk72JW5vfYlzycSgG_Z6EV4hK",
+    "position": 7,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "uwMJv0_wa-M"
+    }
+   }
+  },
+  {
+   "kind": "youtube#playlistItem",
+   "etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/q2oUbEjLaj-gNsPXnTRw_Q_RC4Y\"",
+   "id": "UExIRmxIcFBqZ2s3MkpXNXZmWWx6eWNTZ0dfWjZFVjRoSy41NkI0NEY2RDEwNTU3Q0M2",
+   "snippet": {
+    "publishedAt": "2017-05-11T22:55:29.000Z",
+    "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+    "title": "How to shoot action on iPhone 7 — Apple",
+    "description": "Use Burst mode to capture that perfect split second.\nExplore other photography tips and techniques at http://apple.co/2pUodNM",
+    "thumbnails": {
+     "default": {
+      "url": "https://i.ytimg.com/vi/lhZnMBnosJk/default.jpg",
+      "width": 120,
+      "height": 90
+     },
+     "medium": {
+      "url": "https://i.ytimg.com/vi/lhZnMBnosJk/mqdefault.jpg",
+      "width": 320,
+      "height": 180
+     },
+     "high": {
+      "url": "https://i.ytimg.com/vi/lhZnMBnosJk/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+     },
+     "standard": {
+      "url": "https://i.ytimg.com/vi/lhZnMBnosJk/sddefault.jpg",
+      "width": 640,
+      "height": 480
+     },
+     "maxres": {
+      "url": "https://i.ytimg.com/vi/lhZnMBnosJk/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+     }
+    },
+    "channelTitle": "Apple",
+    "playlistId": "PLHFlHpPjgk72JW5vfYlzycSgG_Z6EV4hK",
+    "position": 8,
+    "resourceId": {
+     "kind": "youtube#video",
+     "videoId": "lhZnMBnosJk"
+    }
+   }
+  }
+ ]
+}
