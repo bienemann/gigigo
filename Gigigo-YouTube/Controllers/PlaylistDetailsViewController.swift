@@ -54,10 +54,10 @@ class PlaylistDetailsViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+
         let videoID = videos[indexPath.row]?.videoID
         let videoURL = "http://www.youtube.com/watch?v=\(videoID!)"
-        UIApplication.shared.open(URL(string:videoURL)!, options: [:], completionHandler: nil)
+        UIApplication.shared.openURL(URL(string:videoURL)!)
 
     }
 }

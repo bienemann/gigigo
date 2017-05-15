@@ -30,7 +30,7 @@ class YoutubeVideo: Mappable {
     }
 
     func mapping(map: Map) {
-        videoID         <- map["id"]
+        videoID         <- map["snippet.resourceId.videoId"]
         publishedAt     <- (map["snippet.publishedAt"],
                         DateFormatterTransform(dateFormatter: YoutubeVideo.dateFormatter))
         title           <- map["snippet.title"]
