@@ -14,7 +14,8 @@
         <scene sceneID="gdt-vL-oiN">
             <objects>
                 <navigationController id="Uyd-aq-Qvq" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bRC-fa-2yf">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="bRC-fa-2yf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -33,7 +34,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="xTQ-EX-PpF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PlaylistItemCell" rowHeight="228" id="UcN-op-Eu4" customClass="PlaylistItemCell" customModule="Gigigo_YouTube" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="228"/>
@@ -58,6 +59,7 @@
                                             <rect key="frame" x="10" y="10" width="355" height="168"/>
                                         </imageView>
                                     </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <constraints>
                                         <constraint firstItem="tpp-et-ico" firstAttribute="top" secondItem="99G-Q0-MB2" secondAttribute="bottom" constant="7" id="5PR-WM-lcP"/>
                                         <constraint firstItem="tpp-et-ico" firstAttribute="trailing" secondItem="99G-Q0-MB2" secondAttribute="trailing" id="7HQ-Hk-APr"/>
@@ -70,6 +72,7 @@
                                         <constraint firstItem="9bF-bM-nWy" firstAttribute="top" secondItem="tpp-et-ico" secondAttribute="bottom" constant="5" id="tVa-6c-ZrY"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="thumbnail" destination="99G-Q0-MB2" id="kRq-od-rX4"/>
                                     <outlet property="title" destination="tpp-et-ico" id="NIZ-Qm-GgN"/>
@@ -96,7 +99,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="168" sectionHeaderHeight="28" sectionFooterHeight="28" id="1dP-we-62V">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="VideoDetailsCell" rowHeight="168" id="b5G-QO-tjL" customClass="PlaylistItemDetailsCell" customModule="Gigigo_YouTube" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="168"/>
@@ -146,6 +149,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <constraints>
                                         <constraint firstItem="zip-fb-xEW" firstAttribute="leading" secondItem="y9p-cd-A7J" secondAttribute="trailing" constant="8" id="1fw-hC-iL2"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="zip-fb-xEW" secondAttribute="trailing" id="4A6-WZ-H5k"/>
@@ -165,6 +169,7 @@
                                         <constraint firstAttribute="bottomMargin" secondItem="ygk-hM-INb" secondAttribute="bottom" constant="6.5" id="yJh-dw-zEv"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="channel" destination="zip-fb-xEW" id="eb9-xj-xwE"/>
                                     <outlet property="thumbnail" destination="y9p-cd-A7J" id="b6a-Xg-cER"/>
