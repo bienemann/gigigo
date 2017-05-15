@@ -23,6 +23,10 @@ class PlaylistItemCell: UITableViewCell {
         super.init(coder: aDecoder)
     }
 
+    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+    }
+
     func setup() {
 
         cleanup()

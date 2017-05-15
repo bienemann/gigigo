@@ -19,9 +19,6 @@ class UserPlaylistsViewController: UITableViewController {
 
         self.title = "Playlists de Apple"
 
-        let nib = UINib(nibName: "PlaylistItemCell", bundle: nil)
-        self.tableView.register(nib, forCellReuseIdentifier: "PlaylistItemCell")
-
         let playlistURL = "\(BaseAPI.baseURL)&\(BaseAPI.idUser)&\(BaseAPI.apiKey)"
         Alamofire.request(playlistURL).responseObject { (response: DataResponse<PlaylistsList>) in
             print(response)
@@ -51,7 +48,7 @@ class UserPlaylistsViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 240.0
+        return 228.0
     }
 
 }

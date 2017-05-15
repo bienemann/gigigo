@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		034F90131EC9199000535921 /* PlaylistItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034F90121EC9199000535921 /* PlaylistItemCell.xib */; };
-		034F90151EC91B3400535921 /* PlaylistItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F90141EC91B3400535921 /* PlaylistItemCell.swift */; };
+		034F90171EC93C7C00535921 /* PlaylistItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F90161EC93C7C00535921 /* PlaylistItemCell.swift */; };
+		034F90191EC9420700535921 /* PlaylistDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F90181EC9420700535921 /* PlaylistDetailsViewController.swift */; };
 		03B666B21EC8D17600082A36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B666B11EC8D17600082A36 /* AppDelegate.swift */; };
 		03B666B41EC8D17600082A36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B666B31EC8D17600082A36 /* ViewController.swift */; };
 		03B666B71EC8D17700082A36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B666B51EC8D17700082A36 /* Main.storyboard */; };
@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		0080CD7F5CC95043BA85F1BA /* Pods-Gigigo-YouTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gigigo-YouTube.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gigigo-YouTube/Pods-Gigigo-YouTube.release.xcconfig"; sourceTree = "<group>"; };
-		034F90121EC9199000535921 /* PlaylistItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaylistItemCell.xib; sourceTree = "<group>"; };
-		034F90141EC91B3400535921 /* PlaylistItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistItemCell.swift; sourceTree = "<group>"; };
+		034F90161EC93C7C00535921 /* PlaylistItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistItemCell.swift; sourceTree = "<group>"; };
+		034F90181EC9420700535921 /* PlaylistDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDetailsViewController.swift; sourceTree = "<group>"; };
 		03B666AE1EC8D17500082A36 /* Gigigo-YouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gigigo-YouTube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B666B11EC8D17600082A36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03B666B31EC8D17600082A36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,23 +84,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		034F90101EC9192700535921 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				034F90111EC9197300535921 /* Cells */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		034F90111EC9197300535921 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				034F90141EC91B3400535921 /* PlaylistItemCell.swift */,
-				034F90121EC9199000535921 /* PlaylistItemCell.xib */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
 		03B666A51EC8D17400082A36 = {
 			isa = PBXGroup;
 			children = (
@@ -124,7 +107,6 @@
 		03B666B01EC8D17600082A36 /* Gigigo-YouTube */ = {
 			isa = PBXGroup;
 			children = (
-				034F90101EC9192700535921 /* Views */,
 				03EC063F1EC8FF18001B0D7D /* Controllers */,
 				03EC063C1EC8FB6E001B0D7D /* API */,
 				03EC062D1EC8D7F7001B0D7D /* Models */,
@@ -170,7 +152,9 @@
 		03EC063F1EC8FF18001B0D7D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				034F90161EC93C7C00535921 /* PlaylistItemCell.swift */,
 				03EC06401EC8FF4B001B0D7D /* UserPlaylistsViewController.swift */,
+				034F90181EC9420700535921 /* PlaylistDetailsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -287,7 +271,6 @@
 			files = (
 				03B666BC1EC8D17700082A36 /* LaunchScreen.storyboard in Resources */,
 				03B666B91EC8D17700082A36 /* Assets.xcassets in Resources */,
-				034F90131EC9199000535921 /* PlaylistItemCell.xib in Resources */,
 				03B666B71EC8D17700082A36 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,8 +397,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				03B666B41EC8D17600082A36 /* ViewController.swift in Sources */,
+				034F90191EC9420700535921 /* PlaylistDetailsViewController.swift in Sources */,
 				03EC063A1EC8FA8B001B0D7D /* Thumbnails.swift in Sources */,
-				034F90151EC91B3400535921 /* PlaylistItemCell.swift in Sources */,
+				034F90171EC93C7C00535921 /* PlaylistItemCell.swift in Sources */,
 				03EC06411EC8FF4B001B0D7D /* UserPlaylistsViewController.swift in Sources */,
 				03EC06341EC8FA5D001B0D7D /* PlaylistItem.swift in Sources */,
 				03EC06361EC8FA6F001B0D7D /* PlayList.swift in Sources */,
